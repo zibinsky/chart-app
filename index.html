@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- STYLES -->
+   <link rel="stylesheet" href="style.css">
+   <title>Chart Application</title>
+</head>
+
+<body>
+
+   <div class="wrapper">
+      <header class="header">
+         <div class="burger-wrapper">
+            <div class="burger">
+               <div class="burger-line"></div>
+               <div class="burger-line"></div>
+               <div class="burger-line"></div>
+            </div>
+         </div>
+         <p>Captured</p>
+      </header>
+
+      <main class="main">
+         <div class="chart-wrapper">
+            <div class="progress-bar">
+               <div class="progress-bar__inner" data-done="32"></div>
+            </div>
+         </div>
+
+         <div class="chart-inner__percent">
+            <div class="chart-inner__percent--number"></div>
+            <span>%</span>
+         </div>
+
+      </main>
+
+      <section class="content">
+         <div class="content-captured">
+            <div class="content-captured__title">Загружено</div>
+            <div class="content-captured__number">
+               <input type="text" value="950" id="input-captured">
+            </div>
+         </div>
+         <div class="content-uploaded">
+            <div class="content-uploaded__title">Общий объем</div>
+            <div class="content-uploaded__number">
+               <input type="text" value="1400" id="input-uploaded">
+            </div>
+         </div>
+      </section>
+   </div>
+
+   <script src="app.js"></script>
+</body>
+
+</html>
